@@ -122,7 +122,9 @@ docker build -t hotel-cancellation .
 docker run -p 9696:9696 hotel-cancellation
 ```
 
-The model is trained while the image is built, so the library versions always match. Then run `python test_request.py` in another terminal. A screenshot is in `docs/service_demo.png`.
+The model is trained while the image is built, so the library versions always match. Then run `python test_request.py` in another terminal. Screenshot of the service running in Docker and answering a request:
+
+![Service demo](docs/service_demo.png)
 
 ## Limitations
 
